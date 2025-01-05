@@ -33,7 +33,7 @@ body {
 	flex-direction: column;
 	align-items: center;
 	width: 100%;
-	border-bottom: 1px solid hsl(0, 0%, 59%);
+	border-bottom: 1px solid hsla(0, 0%, 59%, 0.25);
 	margin: 0 auto 20px;
 }
 .profile-image {
@@ -43,13 +43,16 @@ body {
 	border-radius: 50%;
 }
 .users-name {
+	color: hsl(229, 23%, 23%);
 	font-weight: bold;
 	margin: 0 auto 10px;
 }
 .users-age {
+	color: hsl(227, 10%, 46%);
 	font-weight: 100;
 }
 .location-text {
+	color: hsl(227, 10%, 46%);
 	margin: 0 auto 20px;
 }
 .account-details-row {
@@ -65,9 +68,11 @@ body {
 	gap: 5px;
 }
 .amount-text {
+	color: hsl(229, 23%, 23%);
 	font-weight: bold;
 }
 .subtext {
+	color: hsl(227, 10%, 46%);
 }
 .details-column {
 }
