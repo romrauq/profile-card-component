@@ -80,3 +80,14 @@ body {
 .subtext {
 	color: hsl(227, 10%, 46%);
 }
+@media (max-width: 475px) {
+	.main-container {
+		width: 90%;
+	}
+	.banner-row {
+		width: 100%;
+	}
+	.banner-img {
+		width: 100%;
+	}
+}
