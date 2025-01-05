@@ -1,9 +1,15 @@
+@font-face {
+	font-family: Kumbh;
+	src: url("../fonts/KumbhSans-VariableFont_YOPQ\,wght.ttf");
+}
 * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 }
 body {
+	font-size: 18;
+	font-family: Kumbh;
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -44,12 +50,12 @@ body {
 }
 .users-name {
 	color: hsl(229, 23%, 23%);
-	font-weight: bold;
+	font-weight: 700;
 	margin: 0 auto 10px;
 }
 .users-age {
 	color: hsl(227, 10%, 46%);
-	font-weight: 100;
+	font-weight: 400;
 }
 .location-text {
 	color: hsl(227, 10%, 46%);
@@ -68,21 +74,9 @@ body {
 	gap: 5px;
 }
 .amount-text {
+	font-weight: 700;
 	color: hsl(229, 23%, 23%);
-	font-weight: bold;
 }
 .subtext {
 	color: hsl(227, 10%, 46%);
-}
-.details-column {
-}
-.amount-text {
-}
-.subtext {
-}
-.details-column {
-}
-.amount-text {
-}
-.subtext {
 }
